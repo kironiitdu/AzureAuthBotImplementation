@@ -106,4 +106,18 @@ Go to your `bot channel resource`then `Configuration` and click on `OAuth Connec
 
 ## Publish Bot Project From Visual Studio
 
-<img src="https://i.stack.imgur.com/l04Np.gif" alt="user avatar" width="950" height="750" class="bar-sm bar-md d-block">  
+Here select your `app service` or you can `create new app service` for your bot. You can see the below screen shot. 
+
+## Copy App Service URL 
+
+Your service `URL` should be like this `https://YourBotAppService.azurewebsites.net`
+
+<img src="https://i.stack.imgur.com/JjL05.png" alt="user avatar" width="950" height="750" class="bar-sm bar-md d-block">  
+
+## Configure Bot Messaging endpoint 
+
+Now Copy your `Bot service URL` and go to your `BOT` then click on `Configuration` and paste the `URL` at `Messaging endpoint` with `suffix` value `api/messages` altogether your `Messaging endpoint URL` would be `https://YourBotAppService.azurewebsites.net/api/messages`. Just like below:
+
+<img src="https://i.stack.imgur.com/IzTXH.png" alt="user avatar" width="950" height="750" class="bar-sm bar-md d-block">  
+
+You have successfully configured the azure authentication bot sample. If you still encounter any problems you could post your issue on [stackoverflow.com](https://stackoverflow.com/users/9663070/md-farid-uddin-kiron) . I will help you there if you need it. 
