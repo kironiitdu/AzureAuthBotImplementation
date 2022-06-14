@@ -65,6 +65,7 @@ Now go to your `bot channel resource` and click on `Add OAuth Connection Setting
 ```
 
 - **Step: 2: Set Microsoft Graph Permission**
+
 Now you should set the correct `Delegated permissions` on `Microsoft graph API` under `Azure Active Directory` as per the below screenshot.
 
 <img src="https://i.stack.imgur.com/YrpVP.png" alt="user avatar" width="950" height="550" class="bar-sm bar-md d-block"> 
