@@ -34,6 +34,29 @@ Once you got the `Azure Bot` option successfully now configure your bot as per y
 
 **Note:** Make sure you have selected `Multi-Tenant` as `type of App`. Otherwise, you might encounter `401` while requesting the token from `Azure Bot` to `Azure Active Directory. Because the entire token has been issued from `Azure Active Directory Service`. Here you should additionally know, that `Azure Bot` is a different service. 
 
-## Configure Bot App On Azure Active Directory 
+- **Step: 3**
+
+Now go to your `bot channel resource` and click on `Add OAuth Connection Settings` you should get the below screen. 
+
+<img src="https://i.stack.imgur.com/M7oC8.png" alt="user avatar" width="950" height="750" class="bar-sm bar-md d-block">  
+
+**Note:** To get `app Id` , `app secret` and `tenant id` click on `Microsoft App ID` on `step 3`. Here is the screenshot for your reference.
+
+- **app Id-Client Id / Tenanat Id**
+
+<img src="https://i.stack.imgur.com/QeZQS.png" alt="user avatar" width="950" height="550" class="bar-sm bar-md d-block">  
+
+- **App Secret**
+
+<img src="https://i.stack.imgur.com/wO3gW.png" alt="user avatar" width="950" height="550" class="bar-sm bar-md d-block"> 
+
+**Be informed that `Token Exchange URL` will be empty and `Scopes` should be `openid profile`. Just copy and paste from here 😁.** 
 
 
+## Configure Bot App Permission On Azure Active Directory Graph API
+
+Now you should set the correct `dedicated permission` on `Microsoft graph API` under `Azure Active Directory` as per the below screenshot.
+
+<img src="https://i.stack.imgur.com/YrpVP.png" alt="user avatar" width="950" height="550" class="bar-sm bar-md d-block"> 
+<img src="https://i.stack.imgur.com/I2kRb.png" alt="user avatar" width="950" height="550" class="bar-sm bar-md d-block"> 
+<img src="https://i.stack.imgur.com/UcO4w.png" alt="user avatar" width="950" height="550" class="bar-sm bar-md d-block"> 
