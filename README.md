@@ -18,7 +18,7 @@ You might want to implement Azure Authentication Bot into your Bot Application w
 ## Create Azure Bot 
 
 
-- **Step: 1: **
+- **Step: 1**
 
 Once you have successfully downloaded the Azure Auth Bot sample, now go to your azure portal and hit the `Create a  Resource` Icon then search for `Azure Bot` you should get the below screen.
 
