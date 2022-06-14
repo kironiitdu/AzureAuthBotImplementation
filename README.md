@@ -120,4 +120,8 @@ Now Copy your `Bot service URL` and go to your `BOT` then click on `Configuratio
 
 <img src="https://i.stack.imgur.com/IzTXH.png" alt="user avatar" width="950" height="750" class="bar-sm bar-md d-block">  
 
-You have successfully configured the azure authentication bot sample. If you still encounter any problems you could post your issue on [stackoverflow.com](https://stackoverflow.com/users/9663070/md-farid-uddin-kiron) . I will help you there if you need it. 
+
+```
+  You have successfully configured the azure authentication bot sample. If you still encounter any problems you could post your issue on [stackoverflow.com](https://stackoverflow.com/users/9663070/md-farid-uddin-kiron) . I will help you there if you need it. 
+```
+
