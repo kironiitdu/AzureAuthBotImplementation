@@ -123,4 +123,4 @@ Now Copy your `Bot service URL` and go to your `BOT` then click on `Configuratio
 
 
 
-**You have successfully configured the azure authentication bot sample. If you still encounter any problems you could post your issue on [stackoverflow.com](https://stackoverflow.com/users/9663070/md-farid-uddin-kiron) . I will help you there if you need it. **
+**You have successfully configured the azure authentication bot sample. If you still encounter any problems you could post your issue on [stackoverflow.com](https://stackoverflow.com/users/9663070/md-farid-uddin-kiron) . I will help you there if you need it.**
