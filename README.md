@@ -66,4 +66,4 @@ Now you should set the correct `Delegated permissions` on `Microsoft graph API` 
 
 If you have followed the above steps correctly, you can now test your permission if that is working accordingly as below:
 
-<img src="https://i.stack.imgur.com/sXbZr.gif" alt="user avatar" width="650" height="650" class="bar-sm bar-md d-block">  
+<img src="https://i.stack.imgur.com/sXbZr.gif" alt="user avatar" width="850" height="650" class="bar-sm bar-md d-block">  
