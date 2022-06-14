@@ -108,6 +108,8 @@ Go to your `bot channel resource`then `Configuration` and click on `OAuth Connec
 
 Here select your `app service` or you can `create new app service` for your bot. You can see the below screen shot. 
 
+<img src="https://i.stack.imgur.com/tkrAD.gif" alt="user avatar" width="950" height="750" class="bar-sm bar-md d-block">  
+
 ## Copy App Service URL 
 
 Your service `URL` should be like this `https://YourBotAppService.azurewebsites.net`
