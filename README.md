@@ -54,7 +54,17 @@ Now go to your `bot channel resource` and click on `Add OAuth Connection Setting
 
 
 ## Configure Bot App Permission On Azure Active Directory Graph API
+- **Step: 1: Set Redirect URL**
 
+<img src="https://i.stack.imgur.com/B9xfJ.png" alt="user avatar" width="950" height="550" class="bar-sm bar-md d-block"> 
+
+**Note:** Your can copy the redirect URL from here: Remember that you have to add both the `URL`
+```
+          https://token.botframework.com/.auth/web/redirect
+          https://token.botframework.com
+```
+
+- **Step: 2: Set Microsoft Graph Permission**
 Now you should set the correct `Delegated permissions` on `Microsoft graph API` under `Azure Active Directory` as per the below screenshot.
 
 <img src="https://i.stack.imgur.com/YrpVP.png" alt="user avatar" width="950" height="550" class="bar-sm bar-md d-block"> 
@@ -67,3 +77,28 @@ Now you should set the correct `Delegated permissions` on `Microsoft graph API` 
 If you have followed the above steps correctly, you can now test your permission if that is working accordingly as below:
 
 <img src="https://i.stack.imgur.com/sXbZr.gif" alt="user avatar" width="850" height="650" class="bar-sm bar-md d-block">  
+
+## Configure Your Bot Project On Visual Studio
+
+Now go to `appsettings.json` file on your visual studio bot project and configure the below 3 properties as per your Azure Bot Information. 
+
+```
+{
+  "MicrosoftAppId": "",
+  "MicrosoftAppPassword": "",
+  "ConnectionName": "AuthBot"
+}
+```
+You can get above information here:
+- **MicrosoftAppId**
+
+<img src="https://i.stack.imgur.com/QeZQS.png" alt="user avatar" width="950" height="550" class="bar-sm bar-md d-block">  
+
+- **MicrosoftAppPassword**
+
+<img src="https://i.stack.imgur.com/wO3gW.png" alt="user avatar" width="950" height="550" class="bar-sm bar-md d-block"> 
+
+- **ConnectionName**
+Go to your `bot channel resource`then `Configuration` and click on `OAuth Connection Name` you should get the below screen. 
+
+<img src="https://i.stack.imgur.com/M7oC8.png" alt="user avatar" width="950" height="750" class="bar-sm bar-md d-block">  
