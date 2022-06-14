@@ -55,9 +55,15 @@ Now go to your `bot channel resource` and click on `Add OAuth Connection Setting
 
 ## Configure Bot App Permission On Azure Active Directory Graph API
 
-Now you should set the correct `dedicated permission` on `Microsoft graph API` under `Azure Active Directory` as per the below screenshot.
+Now you should set the correct `Delegated permissions` on `Microsoft graph API` under `Azure Active Directory` as per the below screenshot.
 
 <img src="https://i.stack.imgur.com/YrpVP.png" alt="user avatar" width="950" height="550" class="bar-sm bar-md d-block"> 
 <img src="https://i.stack.imgur.com/I2kRb.png" alt="user avatar" width="950" height="450" class="bar-sm bar-md d-block"> 
 <img src="https://i.stack.imgur.com/UcO4w.png" alt="user avatar" width="950" height="450" class="bar-sm bar-md d-block"> 
 <img src="https://i.stack.imgur.com/J6x6e.png" alt="user avatar" width="950" height="350" class="bar-sm bar-md d-block"> 
+
+## Check and Test the Bot Permission
+
+If you have followed the above steps correctly, you can now test your permission if that is working accordingly as below:
+
+<img src="https://i.stack.imgur.com/sXbZr.gif" alt="user avatar" width="650" height="650" class="bar-sm bar-md d-block">  
