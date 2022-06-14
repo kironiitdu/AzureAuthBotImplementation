@@ -103,3 +103,7 @@ You can get above information here:
 Go to your `bot channel resource`then `Configuration` and click on `OAuth Connection Name` you should get the below screen. 
 
 <img src="https://i.stack.imgur.com/M7oC8.png" alt="user avatar" width="950" height="750" class="bar-sm bar-md d-block">  
+
+## Publish Bot Project From Visual Studio
+
+<img src="https://i.stack.imgur.com/l04Np.gif" alt="user avatar" width="950" height="750" class="bar-sm bar-md d-block">  
