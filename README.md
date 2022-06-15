@@ -1,5 +1,5 @@
 # Azure Auth Bot Implementation
-You might want to implement Azure Authentication Bot into your Bot Application which has been explained [here in Microsoft Official Document](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-authentication?view=azure-bot-service-4.0&tabs=userassigned%2Caadv2%2Ccsharp)   but if you are still struggling. This example will provide you with details guidelines to practically implement the Authentication Bot example as below
+You might want to implement Azure Authentication Bot into your Bot Application which has been explained [here in Microsoft Official Document](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-authentication?view=azure-bot-service-4.0&tabs=userassigned%2Caadv2%2Ccsharp)   but if you are still struggling then this example will provide you with details guidelines to practically implement the Authentication Bot example as below
 
 
 ## Output
