@@ -2,7 +2,7 @@
 You might want to implement Azure Authentication Bot into your Bot Application which has been explained [here in Microsoft Official Document](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-authentication?view=azure-bot-service-4.0&tabs=userassigned%2Caadv2%2Ccsharp)   but if you are still struggling then this example will provide you with details guidelines to practically implement the Authentication Bot example as below
 
 
-## Output
+## Output You Should Ended Up With 
 
 <img src="https://i.stack.imgur.com/uZMqt.gif" alt="user avatar" width="950" height="750" class="bar-sm bar-md d-block">  
 
